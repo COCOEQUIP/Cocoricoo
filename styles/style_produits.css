@@ -7,17 +7,7 @@ FONTS
 body{
   margin: 0;
   font-family: 'Dosis', sans-serif;
-  background-image: url(../images/fond-production_SingleProductPage.png);
 }
-
-@font-face {
-  font-family: 'mister_rooster_freeregular';
-  src: url('misterroosterfree-regular-webfont.woff2') format('woff2'),
-    url('misterroosterfree-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
 @font-face {
@@ -43,9 +33,11 @@ HEADER
 
 
 header{
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-color: #59200a;
   padding-bottom: 5px;
   margin-bottom: 15px;
-  background-image: url(../images/fond-pattern-wood.jpg);
 }
 
 nav ul.nav{
@@ -83,10 +75,10 @@ Main
 
 *****************/
 
+
 #titreMain{
   font-family: Big Bimbo NC;
 }
-
 .section_carroussel{
   float: left;
 }
@@ -94,20 +86,17 @@ Main
   float: left;
 }
 
-.row h3{
-  margin-bottom: 30px;
-  margin-left: 15px;
-  font-family: mister_rooster_freeregular;
+@font-face {
+  font-family: 'mister_rooster_freeregular';
+  src: url('misterroosterfree-regular-webfont.woff2') format('woff2'),
+    url('misterroosterfree-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-/*
-.container{
-width: 960px;
-margin: auto;
-}
-*/
 
-p.txt3{
-  margin-left: 15px;
+.container{
+  width: 960px;
+  margin: auto;
 }
 
 .row p{
@@ -115,7 +104,7 @@ p.txt3{
   font-family: 'Dosis', sans-serif;
 }
 
-.title4{
+h5.title5{
   font-family: 'Dosis', sans-serif;
   color: #f39c12;
   font-style: italic;
@@ -124,7 +113,7 @@ p.txt3{
 .basdepage{
   text-align: center; 
   margin-top: 20px;
-  font-family: Big Bimbo NC;
+  font-family: mister_rooster_freeregular;
   font-size:20px;
 }
 
@@ -132,18 +121,8 @@ p.txt3{
   color:deeppink;
 }
 
-
-#phrase2{
-  margin-right: 50px;
-}
-
-#blocCarroussel{
-  margin-bottom: 60px;
-}
-
 .bouton a {
   display: inline-block;
-  margin-top: 20px;
   width:150px;
   line-height:50px;
   text-align: center;
@@ -152,10 +131,6 @@ p.txt3{
   border-radius: 5px;
   font-family: 'Dosis', sans-serif;
   font-size: 16px;
-}
-
-.row p{
-  font-size: 15px;
 }
 /************
 
@@ -175,12 +150,14 @@ li{
 }
 
 .footer {
-  background-image: url(../images/fond-pattern-wood.jpg);
+  background-color: #a1d153;
+  margin-top: 20px;
   padding: 2rem 4rem;
   text-align: center;
-  margin-top: 20px;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
 }
-
 .footer i {
   font-size: 60px;
 }
