@@ -1,0 +1,35 @@
+*{
+  color: red;
+}
+
+
+div.imgtxt{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+div.imgtxt p{
+  position: absolute;
+  top: 300px;
+  left: 120px;
+  font-size: 50px;
+  color: White;
+  border: solid;
+  border-width: 12px;
+}
+
+
+.slick-prev{
+  left:25px;
+  z-index:99;
+}
+
+.slick-next{
+  right:25px;
+  z-index:99;
+}
+
+.informations p, .informations h2{
+  padding-left:20px;
+  padding-right:20px;
+}

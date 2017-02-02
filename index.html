@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaïvaï</title>
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/foundation.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style_index.css">
+    <link rel="stylesheet" type="text/css" href="styles/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <div id="logoTop">
+            <img src="images/logo.png" class="columns large-2">
+          </div>
+          <ul class="nav">
+            <li class="columns large-2"><a href="#" title="item">Notre histoire</a></li>
+            <li class="columns large-2"><a href="#" title="item">Nos produits</a></li>
+            <li class="columns large-2"><a href="#" title="item">Évènements</a></li>
+            <li class="columns large-2"><a href="#" title="item" id="contact">Contact</a></li>
+            <div class="columns large-2" id="logosHeader">
+              <a href=""><img src="images/twitter.png" alt="logo twitter"></a>
+              <a href=""><img src="images/facebook.png" alt="logo facebook"></a>
+              <a href=""><img src="images/pintarest.png" alt="logo pintarest"></a>
+              <a href=""><img src="images/insta.png" alt="logo instagram"></a>
+              <a href=""><img src="images/Youtube.png" alt="logo youtube"></a>
+              <a href=""><img src="images/linkedin.png" alt="logo linkdin"></a>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row" id="blocCarroussel">
+      <div class="monSlider large-12">
+        <div class="section_carroussel">
+          <div>
+            <div class="titleSlider">
+              NOTRE GAMME <br>
+              DE PRODUIT COCO
+            </div>
+          </div>
+          <div>
+            <img class="img_left" src="images/vaivai_2016_fr.png" alt="imageCool" />
+          </div>
+          <div class="txtImg">
+            <p class="txt3">Inspirée des 1001 manières de consommer l’eau de coco à travers le monde, notre gamme vous fait découvrir des recettes originales, découvertes au gré de nos rencontres et de nos voyages</p>
+          </div>
+        </div>
+        <div class="section_carroussel">
+          <div class="titleSlider">
+            DÉCOUVREZ NOTRE <br>
+            HISTOIRE
+          </div>
+          <div>
+            <img class="img_left" src="images/Vaivai_Corpo-Manifeste_Emmanuel-Gaetan_bureau_112014.jpg" alt="imageCool" />
+          </div>
+          <div class="txtImg">
+            <p class="txt3">Qui sommes-nous ? Que faisons-nous ? D’où est venue cette idée folle de se lancer sur le marché de la coco en France ?</p>
+          </div>
+        </div>
+        <div class="section_carroussel">
+          <div class="titleSlider">
+            LES 10 COCOMMANDEMENTS
+          </div>
+          <div>
+            <img class="img_left" src="images/coco.jpg" alt="imageCool" />
+          </div>
+          <div class="txtImg">
+            <p class="txt3">Envie de nous soutenir ? Découvrez dès à présent les 10 Cocommandements ! #COCORICOOO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="small-12 medium-4 large-4 columns h4">
+          <h4>Réseaux sociaux</h4>
+          <a href="https://www.linkedin.com/company/va-va-/"><img src="images/linkedin.png" alt="linkedin"></a>
+          <a href="https://www.facebook.com/vaivaifrance/"><img src="images/facebook.png" alt="facebook"></a>
+          <a href="https://twitter.com/vaivaiconnexion"><img src="images/twitter.png" alt="twitter"></a>
+          <a href="https://www.instagram.com/vaivaiconnexion/"><img src="images/insta.png" alt="instagram"></a>
+          <a href="https://fr.pinterest.com/vaivai/"><img src="images/pintarest.png" alt="pinterest"></a>
+          <a href="https://www.youtube.com/user/Vaivaiconnexion"><img src="images/Youtube.png" alt="youtube"></a>
+        </div>
+        <div class="small-12 medium-4 large-4 columns h4">
+          <i class="fi-html5"></i>
+          <img src="images/logo2.png">
+          <h4>   ♥ Le gout de la noix de coco ♥</h4>
+        </div>
+        <div class="small-12 medium-4 large-4 columns h4">
+          <h4> A propos de nous</h4>
+          <div id="footer_droite">
+            <li><a href="#">CARRIERE</a></li>
+            <li><a href="#">MEDIA</a></li>
+            <li><a href="#">PRESSE</a></li>
+            <li><a href="#">DISTRIBUTEURS</a></li>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="scripts/vendor/jquery.js"></script>
+    <script src="scripts/vendor/what-input.js"></script>
+    <script src="scripts/vendor/foundation.min.js"></script>
+    <script src="scripts/vendor/slick.min.js"></script>
+    <script>
+      $(document).foundation();
+
+      $(document).ready(function(){
+        $('.monSlider').slick({
+          autoplay : true,
+          autoplayspeed : 1
+        });
+      });
+    </script>
+  </body>
+</html>

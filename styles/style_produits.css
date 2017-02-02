@@ -1,0 +1,220 @@
+/***********
+
+FONTS
+
+*********/
+
+body{
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  background-image: url(../images/fond-production_SingleProductPage.png);
+}
+
+@font-face {
+  font-family: 'mister_rooster_freeregular';
+  src: url('misterroosterfree-regular-webfont.woff2') format('woff2'),
+    url('misterroosterfree-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+  font-family:"Big Bimbo NC";
+  src:url("Big_Bimbo_NC.eot?") format("eot"),url("Big_Bimbo_NC.woff") format("woff"),url("Big_Bimbo_NC.ttf") format("truetype"),url("Big_Bimbo_NC.svg#BigBimboNC") format("svg");
+  font-weight:normal;
+  font-style:normal;}
+
+@font-face {
+  font-family:"Vaivai handwriting";
+  src:("Vaivai_Handwriting.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;}
+
+.clear{
+  clear: both;
+}
+/**************
+
+HEADER
+
+**************/
+
+
+header{
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  background-image: url(../images/fond-pattern-wood.jpg);
+}
+
+nav ul.nav{
+  list-style: none;
+}
+
+nav ul.nav li{
+  text-align: center;
+}
+
+nav ul.nav li a{
+  font-family: Big Bimbo NC;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #59200a;
+}
+
+li.columns.large-2{
+  padding-top: 21px;
+}
+
+#contact{
+  color: #d80972;
+}
+
+#logosHeader{
+  padding-top: 19px;
+}
+
+/****************
+
+
+Main
+
+
+*****************/
+
+#titreMain{
+  font-family: Big Bimbo NC;
+}
+
+.section_carroussel{
+  float: left;
+}
+.img_left{
+  float: left;
+}
+
+.row h3{
+  margin-bottom: 30px;
+  margin-left: 15px;
+  font-family: mister_rooster_freeregular;
+}
+/*
+.container{
+width: 960px;
+margin: auto;
+}
+*/
+
+p.txt3{
+  margin-left: 15px;
+}
+
+.row p{
+  font-size:11px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.title4{
+  font-family: 'Dosis', sans-serif;
+  color: #f39c12;
+  font-style: italic;
+}
+
+.basdepage{
+  text-align: center; 
+  margin-top: 20px;
+  font-family: Big Bimbo NC;
+  font-size:20px;
+}
+
+.rose{
+  color:deeppink;
+}
+
+
+#phrase2{
+  margin-right: 50px;
+}
+
+#blocCarroussel{
+  margin-bottom: 60px;
+}
+
+.bouton a {
+  display: inline-block;
+  margin-top: 20px;
+  width:150px;
+  line-height:50px;
+  text-align: center;
+  background-color: deeppink;
+  color:white;
+  border-radius: 5px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+}
+
+.row p{
+  font-size: 15px;
+}
+/************
+
+FOOTER
+
+*************/
+li.columns.large-2{
+  padding-top: 25px;
+  padding-bottom:30px; 
+}
+li{
+  list-style: none;
+}
+
+.full-width {
+  max-width: 1500px;
+}
+
+.footer {
+  background-image: url(../images/fond-pattern-wood.jpg);
+  padding: 2rem 4rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer i {
+  font-size: 60px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .1em;
+}
+#footer_droite li a{
+  color: black;
+
+}
+.h4 h4{
+  color: black;
+  font-family: Big Bimbo NC;
+
+}
+#footer_droite{
+  font-family: Big Bimbo NC;
+}
+
+
