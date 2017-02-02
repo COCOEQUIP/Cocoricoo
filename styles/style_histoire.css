@@ -76,10 +76,6 @@ MAIN
 
 *************/
 
-.esprit_coco {
-  width: 960px;
-  margin: 0 auto;
-}
 
 h3 {
   color: deeppink;
@@ -91,21 +87,20 @@ hr {
   border-color: rgb(162, 255, 202);
 }
 
-.fan_de_coco {
-  width: 960px;
-  margin: 0 auto;
+#containerComptoir{
+  text-align: center;
+}
+
+.fan_de_coco{
+  text-align: center;
 }
 
 .fan_de_coco h4 {
-  margin-left: 200px;
-  margin-right: 200px;
   color: rgb(162, 255, 202);
   font-family: "misterrooster";
-  float: left;
 }
 
 .fan_de_coco img {
-  float: left;
   width: 80px;
   height: 50px;
 }
@@ -136,15 +131,8 @@ hr {
 .notre_histoire p {
   text-align: center;
 }
-
-.txt3 {
-  width: 960px;
-  margin: 0 auto;
-}
-
-.comptoir {
-  width: 960px;
-  margin: 0 auto;
+#imgComptoir{
+  margin-right: 15px;
 }
 
 .comptoir img {
@@ -194,7 +182,9 @@ hr {
   width: 300px;
   height: 250px;
 }
-
+.imgEnfants{
+  width: 1920px;
+}
 
 /************
 
