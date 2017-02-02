@@ -46,6 +46,11 @@ nav ul.nav li {
   text-align: center;
 }
 
+nav ul.nav li:hover a{
+  border-bottom: solid;
+  border-color: deeppink;
+}
+
 nav ul.nav li a {
   font-family: Big Bimbo NC;
   text-decoration: none;
