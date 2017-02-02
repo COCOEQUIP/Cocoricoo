@@ -1,0 +1,262 @@
+/***********
+
+FONTS
+
+*********/
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+
+@font-face {
+  font-family: "Big Bimbo NC";
+  src: url("Big_Bimbo_NC.eot?") format("eot"), url("Big_Bimbo_NC.woff") format("woff"), url("Big_Bimbo_NC.ttf") format("truetype"), url("Big_Bimbo_NC.svg#BigBimboNC") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "misterrooster";
+  src: url('misterroosterfree-regular-webfont.woff2') format('woff2'), url('misterroosterfree-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/**************
+
+HEADER
+
+**************/
+
+header{
+  padding-bottom: 5px;
+  background-image: url(../images/fond-pattern-wood.jpg);
+}
+nav ul.nav {
+  list-style: none;
+}
+
+nav ul.nav li {
+  text-align: center;
+}
+
+nav ul.nav li a {
+  font-family: Big Bimbo NC;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #59200a;
+}
+
+li.columns.large-2 {
+  padding-top: 21px;
+}
+
+#contact {
+  color: #d80972;
+}
+
+#logosHeader {
+  padding-top: 19px;
+}
+
+
+/************
+
+MAIN
+
+*************/
+
+.esprit_coco {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: deeppink;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+hr {
+  border-color: rgb(162, 255, 202);
+}
+
+.fan_de_coco {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.fan_de_coco h4 {
+  margin-left: 200px;
+  margin-right: 200px;
+  color: rgb(162, 255, 202);
+  font-family: "misterrooster";
+  float: left;
+}
+
+.fan_de_coco img {
+  float: left;
+  width: 80px;
+  height: 50px;
+}
+
+.les_10_coco {
+  text-align: center;
+}
+
+.row#row_2 {
+  background-image: url(../images/fond-production_SingleProductPage.png);
+}
+
+.row span {
+  font-family: "misterrooster";
+  font-size: 24px;
+}
+
+.txt2 {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.notre_histoire h3 {
+  text-align: center;
+  color: rgb(162, 255, 202);
+}
+
+.notre_histoire p {
+  text-align: center;
+}
+
+.txt3 {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.comptoir {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.comptoir img {
+  width: 200px;
+  height: 250px;
+  float: left;
+  clear: both;
+}
+
+.comptoir h3 {
+  color: rgb(162, 255, 202);
+}
+
+.comptoir p {
+  margin-left: 50px;
+}
+
+.monoprix h4 {
+  text-align: center;
+  color: deeppink;
+  font-family: "misterrooster";
+}
+
+.monoprix hr {
+  border-color: deeppink;
+}
+
+.mangue {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.mangue p {
+  width: 660px;
+  float: left;
+  clear: both;
+  text-align: right;
+}
+
+.mangue p span {
+  color: rgb(162, 255, 202);
+  font-size: 20px;
+}
+
+.mangue img {
+  width: 300px;
+  height: 250px;
+}
+
+
+/************
+
+FOOTER
+
+*************/
+
+li.columns.large-2 {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.full-width {
+  max-width: 1500px;
+}
+
+.footer {
+  background-image: url(../images/fond-pattern-wood.jpg);
+  padding: 2rem 4rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer i {
+  font-size: 60px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+
+
+.footer p,
+.footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li {
+  margin-top: .1em;
+}
+
+#footer_droite li a {
+  color: black;
+}
+
+.h4 h4 {
+  color: black;
+  font-family: Big Bimbo NC;
+}
+
+
+#footer_droite {
+  font-family: Big Bimbo NC;
+}
+
+
