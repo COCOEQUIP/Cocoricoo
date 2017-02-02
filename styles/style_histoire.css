@@ -5,6 +5,7 @@ FONTS
 *********/
 
 body {
+  margin: 0;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -42,6 +43,11 @@ nav ul.nav {
 
 nav ul.nav li {
   text-align: center;
+}
+
+nav ul.nav li:hover a{
+  border-bottom: solid;
+  border-color: deeppink;
 }
 
 nav ul.nav li a {
